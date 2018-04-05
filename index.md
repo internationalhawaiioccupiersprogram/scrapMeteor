@@ -1,6 +1,6 @@
 # Table of contents
 
-* [About Bowfolios](#about-bowfolios)
+* [About Grub 'n' Go](#about-grub'n'go)
 * [Installation](#installation)
 * [Application design](#application-design)
   * [Directory structure](#directory-structure)
@@ -25,7 +25,7 @@
 * [Walkthrough videos](#walkthrough-videos)
 * [JSDocs](/jsdocs)
 
-# About BowFolios 
+# About Grub 'n' Go 
 
 BowFolios is a Meteor application providing portfolios for the University of Hawaii community. When you come to the site, you are greeted by the following landing page:
 
@@ -297,9 +297,9 @@ The following sections document the development history of BowFolios.
 
 ## Milestone 1: Mockup development
 
-This milestone started on December 6, 2016 and ended on January 31, 2017.
+This milestone started on April 2nd, 2018 and ended on April 12th, 2018.
 
-The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system. To simplify things, the mockup was developed as a Meteor app. This meant that each page was a template and that FlowRouter was used to implement routing to the pages. 
+The goal of Milestone 1 was to create the functional requirements for our application which includes: having our system deployed to Galaxy, have a landing page (with a login) and mockups of at least four other pages. Additionally there are software engineering requirements that includes using GitHub issues and a GitHub project called "M1" and practicing Issue Driven Project Management strategies. Lastly, there are home page requirements for our project's github home page. This includes (but not limited to): a link to the Github organization of this project, up-to-date screenshots, link to the running deployment of our system on Galaxy, link to the M1 project page and a link to the M2 project page.
 
 Mockups for the following four pages were implemented during M1:
 
@@ -308,7 +308,7 @@ Mockups for the following four pages were implemented during M1:
 <img width="200px" src="images/directory.png"/>
 <img width="200px" src="images/filter.png"/>
 
-Milestone 1 was implemented as [BowFolio GitHub Milestone M1](https://github.com/bowfolios/bowfolios/milestone/1)::
+Milestone 1 was implemented as [BowFolio GitHub Milestone M1]((https://github.com/orgs/internationalhawaiioccupiersprogram/projects/1)::
 
 ![](images/m1-milestone.png)
 
