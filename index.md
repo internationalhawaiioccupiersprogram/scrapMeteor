@@ -1,6 +1,6 @@
 # Table of contents
 
-* [About Grub 'n' Go](#about-grubngo)
+* [About Grub 'n' Go](#about)
 * [Installation](#installation)
 * [Application design](#application-design)
   * [Directory structure](#directory-structure)
@@ -25,7 +25,7 @@
 * [Walkthrough videos](#walkthrough-videos)
 * [JSDocs](/jsdocs)
 
-# About Grub 'n' Go 
+# About 
 
 BowFolios is a Meteor application providing portfolios for the University of Hawaii community. When you come to the site, you are greeted by the following landing page:
 
