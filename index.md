@@ -1,6 +1,6 @@
 # Table of contents
 
-* [About Grub 'n' Go](#about-grub'n'go)
+* [About Grub 'n' Go](#about-grubngo)
 * [Installation](#installation)
 * [Application design](#application-design)
   * [Directory structure](#directory-structure)
