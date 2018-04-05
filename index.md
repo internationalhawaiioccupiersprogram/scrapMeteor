@@ -19,19 +19,16 @@
 * [Development history](#development-history)
   * [Milestone 1: Mockup development](#milestone-1-mockup-development)
   * [Milestone 2: Data model development](#milestone-2-data-model-development)
-  * [Milestone 3: Connect UI to data model](#milestone-3-connect-ui-to-data-model)
-  * [Milestone 4: Authentication](#milestone-4-authentication)
-  * [Milestone 5: Administration](#milestone-5-administration)
 * [Walkthrough videos](#walkthrough-videos)
 * [JSDocs](/jsdocs)
 
 # About 
 
-BowFolios is a Meteor application providing portfolios for the University of Hawaii community. When you come to the site, you are greeted by the following landing page:
+Grub 'n' Go is a Meteor application allowing users a convenient way to see available dining options/menus on campus. When you come to the site, you are greeted by the following landing page:
 
 ![](images/landing.png)
 
-Anyone with a UH account can login to BowFolios by clicking on the login button. The UH CAS authentication screen then appears and requests your UH account and password:
+Anyone with a UH account can login to Grub 'n' Go by clicking on the login button. The UH CAS authentication screen then appears and requests your UH account and password:
  
 ![](images/bowfolios-cas.png)
  
@@ -43,7 +40,7 @@ After creating a profile, you will be listed on the public directory page:
 
 ![](images/directory.png)
 
-BowFolios also provides a filter page, available to those who can login to the system with their UH account. The filter page allows you to display all portfolios with a given interest:
+Grub 'n' Go also provides a filter page, available to those who can login to the system with their UH account. The filter page allows you to display all portfolios with a given interest:
 
 ![](images/filter.png)
 
@@ -186,7 +183,7 @@ For display and navigation among its four pages, the application uses [Flow Rout
 
 Routing is defined in [imports/startup/client/router.js](https://github.com/ics-software-engineering/meteor-application-template/blob/master/app/imports/startup/client/router.js).
 
-BowFolios defines the following routes:
+Grub 'n' Go defines the following routes:
 
   * The `/` route goes to the public landing page.
   * The `/directory` route goes to the public directory page.
@@ -200,7 +197,7 @@ For authentication, the application uses the University of Hawaii CAS test serve
 
 When the application is run, the CAS configuration information must be present in a configuration file such as  [config/settings.development.json](https://github.com/ics-software-engineering/meteor-application-template/blob/master/config/settings.development.json). 
 
-Anyone with a UH account can login and use BowFolio to create a portfolio.  A profile document is created for them if none already exists for that username.
+Anyone with a UH account can login and use Grub 'n' Go to create a portfolio.  A profile document is created for them if none already exists for that username.
 
 ## Authorization
 
@@ -218,13 +215,13 @@ The [config](https://github.com/bowfolios/bowfolios/tree/master/config) director
 
 The [.gitignore](https://github.com/bowfolios/bowfolios/blob/master/.gitignore) file prevents a file named settings.production.json from being committed to the repository. So, if you are deploying the application, you can put settings in a file named settings.production.json and it will not be committed.
 
-BowFolios checks on startup to see if it has an empty database in [initialize-database.js](https://github.com/bowfolios/bowfolios/blob/master/app/imports/startup/server/initialize-database.js), and if so, loads the file specified in the configuration file, such as [settings.development.json](https://github.com/bowfolios/bowfolios/blob/master/config/settings.development.json).  For development purposes, a sample initialization for this database is in [initial-collection-data.json](https://github.com/bowfolios/bowfolios/blob/master/app/private/database/initial-collection-data.json).
+Grub n' Go checks on startup to see if it has an empty database in [initialize-database.js](https://github.com/bowfolios/bowfolios/blob/master/app/imports/startup/server/initialize-database.js), and if so, loads the file specified in the configuration file, such as [settings.development.json](https://github.com/bowfolios/bowfolios/blob/master/config/settings.development.json).  For development purposes, a sample initialization for this database is in [initial-collection-data.json](https://github.com/bowfolios/bowfolios/blob/master/app/private/database/initial-collection-data.json).
 
 ## Quality Assurance
 
 ### ESLint
 
-BowFolios includes a [.eslintrc](https://github.com/bowfolios/bowfolios/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+Grub 'n' Go includes a [.eslintrc](https://github.com/bowfolios/bowfolios/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
 
 ```
 meteor npm run lint
@@ -287,13 +284,13 @@ Load the app in a browser to run client tests, or set the TEST_BROWSER_DRIVER en
 
 ### JSDoc
 
-BowFolios supports documentation generation with [JSDoc](http://usejsdoc.org/). The package.json file defines a script called jsdoc that runs JSDoc over the source files and outputs html to the ../../bowfolio.github.io/jsdoc directory.  When committed, the index.html file providing an overview of all the documentation generate at that point in time is available at [http://bowfolios.github.io/jsdocs](https://bowfolios.github.io/jsdocs/). 
+Grub 'n' Go supports documentation generation with [JSDoc](http://usejsdoc.org/). The package.json file defines a script called jsdoc that runs JSDoc over the source files and outputs html to the ../../bowfolio.github.io/jsdoc directory.  When committed, the index.html file providing an overview of all the documentation generate at that point in time is available at [http://bowfolios.github.io/jsdocs](https://bowfolios.github.io/jsdocs/). 
 
 # Development History
 
-The development process for BowFolios conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f16/modules/project-management/) practices. In a nutshell, development consists of a sequence of Milestones. Milestones consist of issues corresponding to 2-3 day tasks. GitHub projects are used to manage the processing of tasks during a milestone.  
+The development process for Grub 'n' Go conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f16/modules/project-management/) practices. In a nutshell, development consists of a sequence of Milestones. Milestones consist of issues corresponding to 2-3 day tasks. GitHub projects are used to manage the processing of tasks during a milestone.  
 
-The following sections document the development history of BowFolios.
+The following sections document the development history of Grub 'n' Go.
 
 ## Milestone 1: Mockup development
 
@@ -308,12 +305,12 @@ Mockups for the following four pages were implemented during M1:
 <img width="200px" src="images/directory.png"/>
 <img width="200px" src="images/filter.png"/>
 
-Milestone 1 was implemented as [BowFolio GitHub Milestone M1]((https://github.com/orgs/internationalhawaiioccupiersprogram/projects/1)::
+Milestone 1 was implemented as [Grub 'n' Go GitHub Milestone M1]((https://github.com/orgs/internationalhawaiioccupiersprogram/projects/1)::
 
 ![](images/m1-milestone.png)
 
 
-Milestone 1 consisted of five issues, and progress was managed via the [BowFolio GitHub Project M1](https://github.com/bowfolios/bowfolios/projects/1):
+Milestone 1 consisted of five issues, and progress was managed via the [Grub 'n' Go GitHub Project M1](https://github.com/orgs/internationalhawaiioccupiersprogram/projects/1):
 
 ![](images/m1-project.png)
 
@@ -323,18 +320,18 @@ Each issue was implemented in its own branch, and merged into master when comple
 
 ## Milestone 2: Data model development 
 
-This milestone started on Jan 31, 2017 and ended on Feb 2, 2017.
+This milestone started on April 13th, 2018 and ended on April 24th, 2018.
 
-The goal of Milestone 2 was to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the BowFolio application.  We implemented the data model as a set of Javascript classes. The BaseCollection class provides common fields and operations. The ProfileCollection and InterestCollection classes inherit from BaseCollection and provide the persistent data structures useful for BowFolios. 
- 
-Also in this milestone, we implemented a set of mocha tests for the data model classes. These tests make sure we can create, manipulate, and delete the data model documents successfully.  These tests are documented above.
+The goal of Milestone 2 was to significantly improve the functionality and quality of our application beyond the first M1 and improve our software engineering process beyond M1.
 
-Milestone 2 was implemented as [BowFolio GitHub Milestone M2](https://github.com/bowfolios/bowfolios/milestone/2)::
+Additionally, we had to find at least 5 UH community members to test our application and give feedback and update our organization's GitHub page to document the current version of our system.
+
+Milestone 2 was implemented as [Grub 'n' Go GitHub Milestone M2](https://github.com/bowfolios/bowfolios/milestone/2)::
 
 ![](images/m2-milestone.png)
 
 
-Milestone 2 consisted of two issues, and progress was managed via the [BowFolio GitHub Project M2](https://github.com/bowfolios/bowfolios/projects/2):
+Milestone 2 consisted of two issues, and progress was managed via the [Grub 'n' Go GitHub Project M2](https://github.com/bowfolios/bowfolios/projects/2):
 
 ![](images/m2-project.png)
 
