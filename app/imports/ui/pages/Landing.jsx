@@ -17,14 +17,14 @@ class Landing extends React.Component {
             </Grid.Column>
 
             <Grid.Column textAlign='center'>
-              <Icon size='huge' name='file text outline'/>
-              <Header as='h1'>Contact Details</Header>
-              <Header as='h3'>For each contact, you can save their name, address, and phone number.</Header>
+              <Icon size='huge' name='coffee'/>
+              <Header as='h1'>Vendor Page</Header>
+              <Header as='h3'>For each vendor, you can view their menu, location, and bussiness hours.</Header>
             </Grid.Column>
 
             <Grid.Column textAlign='center'>
               <Icon size='huge' name='checked calendar'/>
-              <Header as='h1'>Timestamped Notes</Header>
+              <Header as='h1'></Header>
               <Header as='h3'>Each time you make a contact with a contact, you can write a note that summarizes
                 the
                 conversation.
