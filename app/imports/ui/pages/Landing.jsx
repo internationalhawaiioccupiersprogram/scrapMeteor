@@ -20,7 +20,7 @@ class Landing extends React.Component {
 
             <Grid.Column textAlign='center' inverted>
               <Icon size='huge' name='file text outline' inverted/>
-              <Header as='h1' inverted>Contact Details</Header>
+              <Header as='h1' inverted></Header>
               <Header as='h3' inverted>For each contact, you can save their name, address, and phone number.</Header>
             </Grid.Column>
 
