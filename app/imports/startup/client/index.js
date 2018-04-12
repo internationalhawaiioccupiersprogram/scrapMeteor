@@ -1,2 +1,1 @@
-import './router.js';
-import './useraccount-configuration';
+import './startup.jsx';

@@ -1,1 +1,0 @@
-import './directory-profile.html';
