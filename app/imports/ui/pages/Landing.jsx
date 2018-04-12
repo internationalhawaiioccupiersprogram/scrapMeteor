@@ -24,7 +24,7 @@ class Landing extends React.Component {
             </Grid.Column>
 
             <Grid.Column textAlign='center'>
-              <Icon size='huge' inverted name='checked calendar'/>
+              <Icon size='huge' inverted name='search'/>
               <Header as='h1' inverted>Browse Food Categories</Header>
               <Header as='h3' inverted>Craving Sushi, Pho, Pizza, or want to try something new? Search by food
                 categories.</Header>
