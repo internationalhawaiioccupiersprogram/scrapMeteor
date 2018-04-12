@@ -9,6 +9,7 @@ import Footer from '../components/Footer';
 import Landing from '../pages/Landing';
 import ListContacts from '../pages/ListContacts';
 import ListContactsAdmin from '../pages/ListContactsAdmin';
+import ListContactsVendor from '../pages/ListContactsVendor';
 import AddContact from '../pages/AddContact';
 import EditContact from '../pages/EditContact';
 import NotFound from '../pages/NotFound';
@@ -31,6 +32,7 @@ class App extends React.Component {
               <ProtectedRoute path="/add" component={AddContact}/>
               <ProtectedRoute path="/edit/:_id" component={EditContact}/>
               <AdminProtectedRoute path="/admin" component={ListContactsAdmin}/>
+              <ProtectedRoute path="/vendor" component={ListContactsVendor}/>
               <ProtectedRoute path="/signout" component={Signout}/>
               <Route component={NotFound}/>
             </Switch>
@@ -77,6 +79,7 @@ const AdminProtectedRoute = ({ component: Component, ...rest }) => (
         }}
     />
 );
+
 
 /** Require a component and location to be passed to each ProtectedRoute. */
 ProtectedRoute.propTypes = {
