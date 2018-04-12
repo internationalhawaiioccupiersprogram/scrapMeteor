@@ -57,23 +57,15 @@ The goal of Milestone 1 was to create the functional requirements for our applic
 
 Mockups for the following four pages were implemented during M1:
 
-<img width="200px" src="images/landing.png"/>
-<img width="200px" src="images/profile.png"/>
-<img width="200px" src="images/directory.png"/>
-<img width="200px" src="images/filter.png"/>
+<img width="200px" src="doc/admin-mockup.png"/>
 
 Milestone 1 was implemented as [Grub 'n' Go GitHub Milestone M1]((https://github.com/internationalhawaiioccupiersprogram/GrubNGo/projects/1)::
 
-![](images/m1-milestone.png)
-
-
 Milestone 1 consisted of five issues, and progress was managed via the [Grub 'n' Go GitHub Project M1](https://github.com/internationalhawaiioccupiersprogram/GrubNGo/projects/1):
 
-![](images/m1-project.png)
 
 Each issue was implemented in its own branch, and merged into master when completed:
 
-![](images/m1-branch-graph.png)
 
 ## Milestone 2: Data model development 
 
