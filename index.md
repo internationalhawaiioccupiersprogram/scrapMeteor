@@ -63,12 +63,12 @@ Mockups for the following four pages were implemented during M1:
 <img width="200px" src="images/directory.png"/>
 <img width="200px" src="images/filter.png"/>
 
-Milestone 1 was implemented as [Grub 'n' Go GitHub Milestone M1]((https://github.com/orgs/internationalhawaiioccupiersprogram/projects/1)::
+Milestone 1 was implemented as [Grub 'n' Go GitHub Milestone M1]((https://github.com/internationalhawaiioccupiersprogram/GrubNGo/projects/1)::
 
 ![](images/m1-milestone.png)
 
 
-Milestone 1 consisted of five issues, and progress was managed via the [Grub 'n' Go GitHub Project M1](https://github.com/orgs/internationalhawaiioccupiersprogram/projects/1):
+Milestone 1 consisted of five issues, and progress was managed via the [Grub 'n' Go GitHub Project M1](https://github.com/internationalhawaiioccupiersprogram/GrubNGo/projects/1):
 
 ![](images/m1-project.png)
 
@@ -84,17 +84,10 @@ The goal of Milestone 2 was to significantly improve the functionality and quali
 
 Additionally, we had to find at least 5 UH community members to test our application and give feedback and update our organization's GitHub page to document the current version of our system.
 
-Milestone 2 was implemented as [Grub 'n' Go GitHub Milestone M2](https://github.com/bowfolios/bowfolios/milestone/2)::
-
-![](images/m2-milestone.png)
+Milestone 2 was implemented as [Grub 'n' Go GitHub Milestone M2](https://github.com/internationalhawaiioccupiersprogram/GrubNGo/projects/2)
 
 
-Milestone 2 consisted of two issues, and progress was managed via the [Grub 'n' Go GitHub Project M2](https://github.com/bowfolios/bowfolios/projects/2):
+Milestone 2 consisted of two issues, and progress was managed via the [Grub 'n' Go GitHub Project M2](https://github.com/internationalhawaiioccupiersprogram/GrubNGo/projects/2):
 
-![](images/m2-project.png)
-
-Each issue was implemented in its own branch, and merged into master when completed:
-
-![](images/m2-branch-graph.png)
 
 
