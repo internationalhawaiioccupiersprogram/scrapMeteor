@@ -13,19 +13,20 @@ class Landing extends React.Component {
             <Grid.Column textAlign='center'>
               <Icon size='huge' inverted name='address card'/>
               <Header as='h1' inverted>List of Vendors</Header>
-              <Header as='h3' inverted>Browse the list of Food Vendors and their locations available at UH Manoa</Header>
+              <Header as='h3' inverted>Browse the list of Food Vendors and their locations available at UH
+                Manoa</Header>
             </Grid.Column>
 
             <Grid.Column textAlign='center'>
               <Icon size='huge' inverted name='coffee'/>
-              <Header as='h1'inverted>Vendor Page</Header>
-              <Header as='h3'inverted>For each vendor, you can view their menu, location, and bussiness hours.</Header>
+              <Header as='h1' inverted>Vendor Page</Header>
+              <Header as='h3' inverted>For each vendor, you can view their menu, location, and bussiness hours.</Header>
             </Grid.Column>
 
             <Grid.Column textAlign='center'>
               <Icon size='huge' inverted name='checked calendar'/>
-              <Header as='h1'inverted>Browse Food Categories</Header>
-              <Header as='h3'inverted>Craving Sushi, Pho, Pizza, or want to try something new? Search by food
+              <Header as='h1' inverted>Browse Food Categories</Header>
+              <Header as='h3' inverted>Craving Sushi, Pho, Pizza, or want to try something new? Search by food
                 categories.</Header>
             </Grid.Column>
           </Grid>
