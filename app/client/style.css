@@ -1,0 +1,6 @@
+.back-image {
+  /* put pic first! order matters */
+  background: url('/images/digits.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 375px;
+}

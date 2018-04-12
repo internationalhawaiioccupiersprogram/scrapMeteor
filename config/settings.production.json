@@ -1,18 +1,17 @@
 {
   "defaultAccounts": [
     { "email": "admin@foo.com", "password": "changeme", "role": "admin" },
-    { "email": "john@foo.com", "password": "changeme" }
-  ],
-
-  "defaultData": [
-    { "name": "Basket", "quantity": 3, "owner": "john@foo.com", "condition": "excellent" },
-    { "name": "Bicycle", "quantity": 2, "owner": "john@foo.com", "condition": "poor" },
-    { "name": "Banana", "quantity": 2, "owner": "admin@foo.com", "condition": "good" },
-    { "name": "Boogie Board", "quantity": 2, "owner": "admin@foo.com", "condition": "excellent" }
-  ],
+    { "email": "john@foo.com", "password": "changeme" }],
+  "defaultContacts": [
+    { "firstName": "Philip", "lastName": "Johnson", "address": "POST 307",
+      "image": "https://philipmjohnson.github.io/images/philip2.jpeg", "owner": "john@foo.com",
+      "description": "I am a Professor of Information and Computer Sciences at the University of Hawaii." },
+    { "firstName": "Henri",  "lastName": "Casanova", "address": "POST 307, University of Hawaii",
+      "image": "https://avatars0.githubusercontent.com/u/7494478?s=460&v=4",  "owner": "john@foo.com",
+      "description": "I am originally from France." }],
   "galaxy.meteor.com": {
     "env": {
-      "MONGO_URL": "mongodb://user:password@ds243049.mlab.com:43049/grubngo"
+      "MONGO_URL": "mongodb://vjaramil:Mamut17!@ds113046.mlab.com:13046/appdb314"
     }
   }
 }
