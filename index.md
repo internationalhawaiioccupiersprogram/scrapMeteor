@@ -10,29 +10,28 @@
 
 Grub 'n' Go is a Meteor application allowing users a convenient way to see available dining options/menus on campus. When you come to the site, you are greeted by the following landing page:
 
-![](images/landing.png)
 
 Anyone with a UH account can login to Grub 'n' Go by clicking on the login button. The UH CAS authentication screen then appears and requests your UH account and password:
  
-![](images/bowfolios-cas.png)
  
 Once authenticated, you can create a profile that provides a biographical statement and list of interests, plus links to selected social media sites (GitHub, FaceBook, Instagram):
 
-![](images/profile.png)
   
 After creating a profile, you will be listed on the public directory page:
 
-![](images/directory.png)
 
 Grub 'n' Go also provides a filter page, available to those who can login to the system with their UH account. The filter page allows you to display all portfolios with a given interest:
 
-![](images/filter.png)
+There is also an admin page where the admin has access to view all users and vendors. Here, the admin can edit who is a user and who is a vendor. For easy navigation, corresponding establishment, if applicable, if shown as well:
+
+![](doc/admin-mockup.jpg)
+
 
 # Installation
 
 First, [install Meteor](https://www.meteor.com/install).
 
-Second, [download a copy of GrubNGo](https://github.com/bowfolios/bowfolios/archive/master.zip), or clone it using git.
+Second, [download a copy of GrubNGo](https://github.com/internationalhawaiioccupiersprogram/grubngo/archive/master.zip), or clone it using git.
   
 Third, cd into the app/ directory and install libraries with:
 
