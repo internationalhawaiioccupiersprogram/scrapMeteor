@@ -13,7 +13,8 @@ import AddContact from '../pages/AddContact';
 import EditContact from '../pages/EditContact';
 import NotFound from '../pages/NotFound';
 import Signin from '../pages/Signin';
-import Signup from '../pages/Signup';
+import SignupUser from '../pages/SignupUser';
+import SignupVendor from '../pages/SignupVendor';
 import Signout from '../pages/Signout';
 
 /** Top-level layout component for this application. Called in imports/startup/client/startup.jsx. */
@@ -26,7 +27,8 @@ class App extends React.Component {
             <Switch>
               <Route exact path="/" component={Landing}/>
               <Route path="/signin" component={Signin}/>
-              <Route path="/signup" component={Signup}/>
+              <Route path="/signupUser" component={SignupUser}/>
+              <Route path="/signupVendor" component={SignupVendor}/>
               <ProtectedRoute path="/list" component={ListContacts}/>
               <ProtectedRoute path="/add" component={AddContact}/>
               <ProtectedRoute path="/edit/:_id" component={EditContact}/>
@@ -47,16 +49,16 @@ class App extends React.Component {
  * @param {any} { component: Component, ...rest }
  */
 const ProtectedRoute = ({ component: Component, ...rest }) => (
-  <Route
-    {...rest}
-    render={(props) => {
-      const isLogged = Meteor.userId() !== null;
-      return isLogged ?
-          (<Component {...props} />) :
-          (<Redirect to={{ pathname: '/signin', state: { from: props.location } }}/>
-      );
-    }}
-  />
+    <Route
+        {...rest}
+        render={(props) => {
+          const isLogged = Meteor.userId() !== null;
+          return isLogged ?
+              (<Component {...props} />) :
+              (<Redirect to={{ pathname: '/signin', state: { from: props.location } }}/>
+              );
+        }}
+    />
 );
 
 /**
