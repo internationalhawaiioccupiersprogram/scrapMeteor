@@ -11,6 +11,7 @@ export default class SignupUser extends React.Component {
   constructor(props) {
     super(props);
     this.state = { email: '', password: '', error: '' };
+
     // Ensure that 'this' is bound to this component in these two functions.
     // https://medium.freecodecamp.org/react-binding-patterns-5-approaches-for-handling-this-92c651b5af56
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -41,12 +42,12 @@ export default class SignupUser extends React.Component {
           <Grid textAlign="center" inverted verticalAlign="middle" centered columns={2}>
             <Grid.Column>
               <Header as="h2" textAlign="center" inverted>
-                Register your account
+                User Registration
               </Header>
               <Form onSubmit={this.handleSubmit}>
                 <Segment stacked>
                   <Form.Input
-                      label="Email"
+                      label="User Email"
                       icon="user"
                       iconPosition="left"
                       name="email"
@@ -63,7 +64,8 @@ export default class SignupUser extends React.Component {
                       type="password"
                       onChange={this.handleChange}
                   />
-                  <Form.Button content="Submit"/>
+                  <div align="center">
+                    <Form.Button content="Submit"/></div>
                 </Segment>
               </Form>
               <Message>

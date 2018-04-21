@@ -41,13 +41,13 @@ export default class Signup extends React.Component {
           <Grid textAlign="center" inverted verticalAlign="middle" centered columns={2}>
             <Grid.Column>
               <Header as="h2" textAlign="center" inverted>
-                Register your account
+                Vendor Registration
               </Header>
               <Form onSubmit={this.handleSubmit}>
                 <Segment stacked>
                   <Form.Input
-                      label="Email"
-                      icon="user"
+                      label="Vendor Email"
+                      icon="shopping cart"
                       iconPosition="left"
                       name="email"
                       type="email"
@@ -63,7 +63,8 @@ export default class Signup extends React.Component {
                       type="password"
                       onChange={this.handleChange}
                   />
-                  <Form.Button content="Submit"/>
+                  <div align="center">
+                    <Form.Button content="Submit"/></div>
                 </Segment>
               </Form>
               <Message>
